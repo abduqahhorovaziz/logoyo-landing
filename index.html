@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo Yo Landing</title>
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav__brand">
+          <a href="#" class="nav__brand-link">
+            <img src="./assets/images/logo.svg" alt="brand logo" class="nav__brand-logo">
+          </a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-link">Автомобили</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-link">Покупка авто</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-link">Личная охрана</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-link">Клубные карты</a>
+          </li>
+        </ul>
+        <div class="nav__functions">
+          <ul class="nav__functions-social-list">
+            <li class="social__item">
+              <a href="#" class="social__item-link">
+                <img src="./assets/images/icons/telegram.svg" alt="telegram icon" class="social__item-icon">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__item-link">
+                <img src="./assets/images/icons/instagram.svg" alt="instagram icon" class="social__item-icon">
+              </a>
+            </li>
+          </ul>
+          <button class="nav__functions-btn">Связаться с нами</button>
+        </div>
+        <button class="btn-toggle">
+          <img src="./assets/images/icons/menu.svg" alt="menu icon" class="btn__toggle-menu">
+          <img src="./assets/images/icons/close.svg" alt="menu icon " class="btn__toggle-close hidden">
+        </button>
+      </nav>
+      <div class="nav__mobile nav__mobile-none">
+        <ul class="nav__mobile-list">
+          <li class="nav__mobile-list-item">
+            <a href="#" class="nav__mobile-list-link">Автомобили</a>
+          </li>
+          <li class="nav__mobile-list-item">
+            <a href="#" class="nav__mobile-list-link">Покупка авто</a>
+          </li>
+          <li class="nav__mobile-list-item">
+            <a href="#" class="nav__mobile-list-link">Личная охрана</a>
+          </li>
+          <li class="nav__mobile-list-item">
+            <a href="#" class="nav__mobile-list-link">Клубные карты</a>
+          </li>
+        </ul>
+        <div class="nav__mobile-functions">
+          <div class="nav__mobile-socials">
+            <ul class="social__list">
+              <li class="social__list-item">
+                <a href="#" class="social__list-link">
+                  <img src="./assets/images/icons/telegram.svg" alt="icon-telegram">
+                </a>
+              </li>
+              <li class="social__list-item">
+                <a href="#" class="social__list-link">
+                  <img src="./assets/images/icons/instagram.svg" alt="icon-instagram">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="nav__mobile-btn btn-default">Связаться с нами</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION INTRO -->
+    <section class="intro">
+      <div class="container">
+        <div class="intro__right">
+          <h1 class="intro__right-title">Стань частью
+            клуба Logo yo</h1>
+          <p class="intro__right-subtitle">Узнайте о преимуществах наших
+            Клубных карт для аренды авто. Эксклюзивные
+            предложения, бесплатные дни и многое другое ждут вас. Присоединяйтесь к клубу уже сегодня!</p>
+          <button class="intro__right-btn btn-circle">Выбрать карту</button>
+        </div>
+        <div class="intro__left">
+          <div class="card card-premium" data-parallax data-parallax-x="24" data-parallax-y="25">
+            <div class="card__element"></div>
+            <p class="card__status">Premium</p>
+            <p class="card__cardholder">Efrosin Tarasov</p>
+          </div>
+          <div class="card card-gold" data-parallax data-parallax-z="10" data-parallax-w="14">
+            <div class="card__element"></div>
+            <p class="card__status">Gold</p>
+            <p class="card__cardholder">Anastasiya Zaytseva</p>
+          </div>
+          <div class="card card-white" data-parallax data-parallax-x="4" data-parallax-y="10">
+            <div class="card__element"></div>
+            <div class="card__brand">
+              <img src="./assets/images/logo.svg" alt="card logo" class="card__brand-logo">
+            </div>
+            <p class="card__cardholder">Anastasiya Zaytseva</p>
+          </div>
+          <div class="card card-standard" data-parallax data-parallax-z="16" data-parallax-w="20">
+            <div class="card__element"></div>
+            <p class="card__status">Standard</p>
+            <p class="card__cardholder">Pyotr Kuznetsov</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION RENTS -->
+    <section class="rents">
+      <h2 class="rents__title section-title">
+        Персональные условия по тарифам только для владельцев клубной карты
+      </h2>
+      <div class="rents__wrapper">
+        <div class="container">
+          <div class="rent__card">
+            <p class="rent__card-title">Rolls-Royce Wraith</p>
+            <img src="./assets/images/tariffs/tarif-img-01.png" alt="rent car 01" class="rent__card-img">
+            <p class="rent__card-old-price">79.000 руб/сутки</p>
+            <p class="rent__card-new-price">49.000 руб/сутки</p>
+          </div>
+          <div class="rent__card">
+            <p class="rent__card-title">Mercedes - Benz G</p>
+            <img src="./assets/images/tariffs/tarif-img-02.png" alt="rent car 02" class="rent__card-img">
+            <p class="rent__card-old-price">54.000 руб/сутки</p>
+            <p class="rent__card-new-price">29.000 руб/сутки</p>
+          </div>
+          <div class="rent__card">
+            <p class="rent__card-title">Dodge Challenger SRT</p>
+            <img src="./assets/images/tariffs/tarif-img-03.png" alt="rent car 03" class="rent__card-img">
+            <p class="rent__card-old-price">20.000 руб/сутки</p>
+            <p class="rent__card-new-price">11.900 руб/сутки</p>
+          </div>
+          <div class="rent__content">
+            <h3 class="rent__content-title">20+</h3>
+            <p class="rent__content-text">автомобилей в аренду со скидкой до 40%</p>
+          </div>
+          <div class="rents__wrapper-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CHOOSE CARD -->
+    <section class="choose">
+      <div class="container">
+        <h2 class="choose__title section-title">Выберите подходящую карту</h2>
+        <p class=" choose__subtitle">
+          Выберите идеальную карту, соответствующую вашим потребностям. Получите эксклюзивные привилегии и выгоды при
+          аренде автомобиля. Наслаждайтесь комфортом и удобством с нашими клубными картами.
+        </p>
+        <div class="choose__slider">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card card-premium">
+                  <div class="card__element"></div>
+                  <div class="card__header">
+                    <div class="card__header-brand">
+                      <img src="./assets/images/logo.svg" alt="card brand logo" class="card__header-brand-logo">
+                    </div>
+                    <p class="card__header-status">
+                      Premium
+                    </p>
+                  </div>
+                  <p class="card__cardholder">Efrosin Tarasov</p>
+                  <button class="card__apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card card-silver">
+                  <div class="card__element"></div>
+                  <div class="card__header">
+                    <div class="card__header-brand">
+                      <img src="./assets/images/logo.svg" alt="card brand logo" class="card__header-brand-logo">
+                    </div>
+                    <p class="card__header-status">
+                      Silver
+                    </p>
+                  </div>
+                  <p class="card__cardholder">Sveta Kovaleva</p>
+                  <button class="card__apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card card-gold">
+                  <div class="card__element"></div>
+                  <div class="card__header">
+                    <div class="card__header-brand">
+                      <img src="./assets/images/logo.svg" alt="card brand logo" class="card__header-brand-logo">
+                    </div>
+                    <p class="card__header-status">
+                      Gold
+                    </p>
+                  </div>
+                  <p class="card__cardholder">Anastasiya Zaytseva</p>
+                  <button class="card__apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card card-standard">
+                  <div class="card__element"></div>
+                  <div class="card__header">
+                    <div class="card__header-brand">
+                      <img src="./assets/images/logo.svg" alt="card brand logo" class="card__header-brand-logo">
+                    </div>
+                    <p class="card__header-status">
+                      Standard
+                    </p>
+                  </div>
+                  <p class="card__cardholder">Pyotr Kuznetsov</p>
+                  <button class="card__apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__second card__second-premium">
+                  <div class="card__second-content">
+                    <p class="card__second-content-label">Размер депозита</p>
+                    <p class="card__second-content-value">2 000 000 руб.</p>
+                    <p class="card__second-content-label">Скидка на аренду</p>
+                    <p class="card__second-content-value">40%</p>
+                    <p class="card__second-content-label">Срок действия</p>
+                    <p class="card__second-content-value">Без срока</p>
+                  </div>
+                  <div class="card__second-element">
+                    <img src="./assets/images/logo.svg" alt="logo" class="card__second-element-logo">
+                  </div>
+                  <button class="card__second-apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__second card__second-gold">
+                  <div class="card__second-content">
+                    <p class="card__second-content-label">Размер депозита</p>
+                    <p class="card__second-content-value">1 500 000 руб.</p>
+                    <p class="card__second-content-label">Скидка на аренду</p>
+                    <p class="card__second-content-value">30%</p>
+                    <p class="card__second-content-label">Срок действия</p>
+                    <p class="card__second-content-value">Без срока</p>
+                  </div>
+                  <div class="card__second-element">
+                    <img src="./assets/images/logo-dark.svg" alt="logo" class="card__second-element-logo">
+                  </div>
+                  <button class="card__second-apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__second card__second-silver">
+                  <div class="card__second-content">
+                    <p class="card__second-content-label">Размер депозита</p>
+                    <p class="card__second-content-value">1 000 000 руб.</p>
+                    <p class="card__second-content-label">Скидка на аренду</p>
+                    <p class="card__second-content-value">20%</p>
+                    <p class="card__second-content-label">Срок действия</p>
+                    <p class="card__second-content-value">1 год</p>
+                  </div>
+                  <div class="card__second-element">
+                    <img src="./assets/images/logo-dark.svg" alt="logo" class="card__second-element-logo">
+                  </div>
+                  <button class="card__second-apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__second card__second-standard">
+                  <div class="card__second-content">
+                    <p class="card__second-content-label">Размер депозита</p>
+                    <p class="card__second-content-value">500 000 руб.</p>
+                    <p class="card__second-content-label">Скидка на аренду</p>
+                    <p class="card__second-content-value">10%</p>
+                    <p class="card__second-content-label">Срок действия</p>
+                    <p class="card__second-content-value">1 год</p>
+                  </div>
+                  <div class="card__second-element">
+                    <img src="./assets/images/logo.svg" alt="logo" class="card__second-element-logo">
+                  </div>
+                  <button class="card__second-apply-btn btn-default">Оформить Карту</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="choose__slider-btn slider-prev">
+            <img src="./assets/images/icons/arrow.svg" alt="arrow" class="slider__btn-icon">
+          </button>
+          <button class="choose__slider-btn slider-next">
+            <img src="./assets/images/icons/arrow.svg" alt="arrow" class="slider__btn-icon">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION GALLERY-->
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery__wrapper">
+          <div class="gallery__wrapper-col col-1">
+            <div class="gallery__content-box">
+              <p class="gallery__content-box-title">Элегантный подарок на любой случай.</p>
+            </div>
+            <div class="gallery__image-box image-box">
+              <div class="gallery__image-box-linear"></div>
+              <div class="image-box__content">
+                <h3 class="image-box__content-title">На новый год</h3>
+                <p class="image-box__content-text">Дарите незабываемые впечатления перед Новым годом.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery__wrapper-col col-2">
+            <div class="gallery__image-box image-box">
+              <div class="gallery__image-box-linear"></div>
+              <div class="image-box__content">
+                <h3 class="image-box__content-title">На Выходные</h3>
+                <p class="image-box__content-text">Отличное дополнение для тех, кто ищет отдых.</p>
+              </div>
+            </div>
+            <div class="gallery__content-box">
+              <p class="gallery__content-box-title">Автомобили всегда чистые и заправленные.</p>
+            </div>
+          </div>
+          <div class="gallery__wrapper-col col-3">
+            <div class="gallery__image-box image-box">
+              <div class="gallery__image-box-linear"></div>
+              <div class="image-box__content">
+                <h3 class="image-box__content-title">На день рождения</h3>
+                <p class="image-box__content-text">Эксклюзивное сюрпризное предложение для юбиляра.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <div class="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__wrapper-brand">
+            <div class="contact__brand">
+              <img src="./assets/images/logo.svg" alt="logo" class="contact__brand-logo">
+            </div>
+            <p class="contact__subtitle">
+              Аренда премиальных автомобилей в Москве
+            </p>
+            <ul class="contact__list">
+              <li class="contact__list-item">
+                <a href="#" class="contact__list-link">Автомобили</a>
+              </li>
+              <li class="contact__list-item">
+                <a href="#" class="contact__list-link">Покупка авто</a>
+              </li>
+              <li class="contact__list-item">
+                <a href="#" class="contact__list-link">Личная охрана</a>
+              </li>
+              <li class="contact__list-item">
+                <a href="#" class="contact__list-link">Клубные карты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact__wrapper-address">
+            <div class="contact__phone">
+              <p class="contact__phone-label">Телефон</p>
+              <div class="contact__phone-socials">
+                <a href="tel:+70000000000" class="contact__phone-phone">+7 (000) 000-00-00</a>
+                <ul class="contact__social-list">
+                  <li class="contact__social-item">
+                    <a href="#" class="contact__social-link">
+                      <img src="./assets/images/icons/telegram.svg" alt="telegram icon">
+                    </a>
+                  </li>
+                  <li class="contact__social-item">
+                    <a href="#" class="contact__social-link">
+                      <img src="./assets/images/icons/instagram.svg" alt="instagram icon">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="contact__phone-work-time">Работаем круглосуточно</p>
+            </div>
+            <div class="contact__address">
+              <p class="contact__address-label">Адрес</p>
+              <p class="contact__address-address">Москва, Проспект Вернадского
+                12д</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION SOCIALS -->
+    <section class="socials">
+      <div class="container">
+        <div class="socials__wrapper">
+          <div class="socials__left">
+            <p class="socials__left-label">Следите за нами</p>
+            <div class="socials__left-networks">
+              <a href="#" class="social__network social-telegram">
+                <img src="./assets/images/icons/telegram.svg" alt="telegram icon" class="social__network-icon">
+                <p class="social__network-name">Telegram</p>
+              </a>
+              <a href="#" class="social__network social-instagram">
+                <img src="./assets/images/icons/instagram.svg" alt="telegram icon" class="social__network-icon">
+                <p class="social__network-name">Instagram</p>
+              </a>
+            </div>
+          </div>
+          <div class="socials__right">
+            <div class="social__right-form">
+              <div class="form__box">
+                <h3 class="form__box-title">ОСТАЛИСЬ ВОПРОСЫ ?</h3>
+                <p class="form__box-text">Отправьте заявку и наш эксперт свяжется с Вами в ближайшее
+                  время</p>
+                <form action="#" class="form">
+                  <input type="text" placeholder="Ваше имя" class="form__input" required>
+                  <input type="text" placeholder="Номер телефона" class="form__input" required>
+                  <div class="form__btn-box">
+                    <button class="form__btn btn-circle">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <p class="footer__rights">LOGO yO all Rights</p>
+        <a href="#" class="footer__terms">Политика конфиденциальности</a>
+        <p class="footer__dev">Дизайн и разработка - <a href="#">AA</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

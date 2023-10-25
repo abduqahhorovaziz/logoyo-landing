@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Eurostile Round Extended";
+  src: url("EurostileRoundExtended-Medium.eot");
+  src: local("Eurostile Round Extended Medium"),
+    local("EurostileRoundExtended-Medium"),
+    url("EurostileRoundExtended-Medium.eot?#iefix") format("embedded-opentype"),
+    url("EurostileRoundExtended-Medium.woff2") format("woff2"),
+    url("EurostileRoundExtended-Medium.woff") format("woff"),
+    url("EurostileRoundExtended-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Eurostile Round Extended";
+  src: url("EurostileRoundExtended-Regular.eot");
+  src: local("Eurostile Round Extended Regular"),
+    local("EurostileRoundExtended-Regular"),
+    url("EurostileRoundExtended-Regular.eot?#iefix") format("embedded-opentype"),
+    url("EurostileRoundExtended-Regular.woff2") format("woff2"),
+    url("EurostileRoundExtended-Regular.woff") format("woff"),
+    url("EurostileRoundExtended-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Eurostile Round Condensed";
+  src: url("EurostileRoundCondensed-Regular.eot");
+  src: local("Eurostile Round Condensed Regular"),
+    local("EurostileRoundCondensed-Regular"),
+    url("EurostileRoundCondensed-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("EurostileRoundCondensed-Regular.woff2") format("woff2"),
+    url("EurostileRoundCondensed-Regular.woff") format("woff"),
+    url("EurostileRoundCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Eurostile Round";
+  src: url("EurostileRound-Regular.eot");
+  src: local("Eurostile Round Regular"), local("EurostileRound-Regular"),
+    url("EurostileRound-Regular.eot?#iefix") format("embedded-opentype"),
+    url("EurostileRound-Regular.woff2") format("woff2"),
+    url("EurostileRound-Regular.woff") format("woff"),
+    url("EurostileRound-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Eurostile Round";
+  src: url("EurostileRound-Medium.eot");
+  src: local("Eurostile Round Medium"), local("EurostileRound-Medium"),
+    url("EurostileRound-Medium.eot?#iefix") format("embedded-opentype"),
+    url("EurostileRound-Medium.woff2") format("woff2"),
+    url("EurostileRound-Medium.woff") format("woff"),
+    url("EurostileRound-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
